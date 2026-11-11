@@ -6,5 +6,6 @@ los tiene y muestra adentro la web de Apps Script de siempre. No hay datos ni c�
 
 - `pruebas/` → web de pruebas
 - raíz (`/`) → web de producción (la que se instala)
+- `precios/bocata.tsv` → ofertas del mailing de Bocata (las lee Claude de las fotos del mailing; la sección Surtidos las trae con "Traer ofertas")
 
 El código de la app está en el repo privado `webgastospareja`.

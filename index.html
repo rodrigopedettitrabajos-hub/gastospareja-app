@@ -35,6 +35,9 @@
   // Si no avisa a tiempo (por ejemplo, Google pide iniciar sesión, que no se puede hacer adentro),
   // se ofrece abrirla directo: ahí puede aparecer una barrita arriba, pero anda todo igual.
   var lista = false;
+  // Accesos directos del ícono (mantener apretado): abren la web en esa sección.
+  var vista = (/[?&]vista=([a-z]+)/.exec(location.search) || [])[1];
+  if (vista === 'surtidos' || vista === 'nuevo') WEB += '?vista=' + vista;
   document.getElementById('abrir').href = WEB;
   document.getElementById('web').src = WEB;
   window.addEventListener('message', function (e) {

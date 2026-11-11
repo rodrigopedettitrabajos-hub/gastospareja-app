@@ -5,6 +5,6 @@ Apps Script no deja servir manifest ni service worker, así que esta página (Gi
 los tiene y muestra adentro la web de Apps Script de siempre. No hay datos ni código de la app acá.
 
 - `pruebas/` → web de pruebas
-- (producción se agrega cuando se pase a producción)
+- raíz (`/`) → web de producción (la que se instala)
 
 El código de la app está en el repo privado `webgastospareja`.

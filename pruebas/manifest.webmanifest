@@ -54,6 +54,18 @@
           "sizes": "192x192"
         }
       ]
+    },
+    {
+      "name": "Seguimiento de cuotas",
+      "short_name": "Cuotas",
+      "description": "Ver cuánto falta pagar en cuotas",
+      "url": "./?vista=cuotas",
+      "icons": [
+        {
+          "src": "icono-192.png",
+          "sizes": "192x192"
+        }
+      ]
     }
   ]
 }

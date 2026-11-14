@@ -1,6 +1,6 @@
 // Service worker mínimo: guarda esta página de entrada para que la app abra rápido.
 // Los datos NO pasan por acá: la web de Google se carga adentro y siempre está al día.
-var CACHE = 'gastos-entrada-v3';
+var CACHE = 'gastos-entrada-v4';
 var ARCHIVOS = ['./', 'manifest.webmanifest', 'icono-192.png', 'icono-512.png', 'icono-maskable-512.png'];
 self.addEventListener('install', function (e) {
   e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(ARCHIVOS); }));
